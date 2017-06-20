@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        asyncClass = new AsyncClass("http://118.91.118.27:52273/testPy");
+        asyncClass = new AsyncClass();
+        asyncClass.getValue();
     }
 }
